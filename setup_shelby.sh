@@ -22,6 +22,10 @@ apt install binutils-arm-none-eabi gcc-arm-none-eabi libstdc++-arm-none-eabi-new
 
 echo "Configure github."
 sudo apt update && sudo apt install git -y
-git config --global user.name 'vsc-sxx.'
+git config --global user.name 'ShelbyHell (proton lover)'
 git config --global user.email "shelbyhell@proton.me"
 git config --global credential.helper "cache --timeout=7200"
+
+echo "Installing repo"
+sudo curl --create-dirs -L -o /usr/local/bin/repo -O -L https://storage.googleapis.com/git-repo-downloads/repo
+sudo chmod a+rx /usr/local/bin/repo
