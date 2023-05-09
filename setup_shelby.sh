@@ -14,9 +14,9 @@ sudo apt-get update -q -y && sudo apt-get install -q -y --no-install-recommends 
     build-essential gcc gcc-multilib g++ g++-multilib \
     clang llvm lld cmake automake autoconf \
     libxml2 libxml2-utils xsltproc expat re2c \
-    ncurses-bin libncurses5-dev lib32ncurses5-dev bc libreadline-gplv2-dev libsdl1.2-dev libtinfo5 python-is-python2 ninja-build libcrypt-dev\
+    ncurses-bin libncurses5-dev lib32ncurses5-dev bc libsdl1.2-dev libtinfo5 python-is-python3 ninja-build libcrypt-dev\
     file gawk xterm screen rename tree schedtool software-properties-common \
-    dos2unix jq flex bison gperf exfat-utils exfat-fuse libb2-dev pngcrush imagemagick optipng advancecomp kmod gem ruby tmate
+    dos2unix jq flex bison gperf exfat-fuse libb2-dev pngcrush imagemagick optipng advancecomp kmod gem ruby tmate
 
 apt install binutils-arm-none-eabi gcc-arm-none-eabi libstdc++-arm-none-eabi-newlib binutils-aarch64-linux-gnu gcc-aarch64-linux-gnu -y
 
